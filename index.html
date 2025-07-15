@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -74,7 +74,10 @@
       <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center py-4">
           <!-- Logo -->
-          <div class="text-2xl font-bold text-brand-blue">Digital sovereignty sprint</div>
+          <div class="text-2xl font-bold text-brand-blue">
+            <div lang="en">Digital sovereignty sprint</div>
+            <div lang="fr" class="hidden">Sprint souveraineté numérique</div>
+          </div>
 
           <!-- Desktop Navigation -->
           <div class="hidden md:flex items-center space-x-8">
@@ -86,13 +89,19 @@
             <a
               href="#about"
               class="text-gray-600 hover:text-brand-blue transition-colors duration-200"
-              >About</a
+              ><span lang="en">About</span><span lang="fr" class="hidden">À propos</span></a
             >
             <a
               href="https://guelnoji-bbugogaf.scoreapp.com/"
               class="bg-brand-orange text-white px-6 py-2 rounded-full hover:opacity-90 transition-all duration-200 font-medium"
-              >Book your intro call</a
+              ><span lang="en">Book your intro call</span><span lang="fr" class="hidden">On en parle !</span></a
             >
+            <div class="relative">
+              <select id="language-switcher" class="bg-white border border-gray-300 rounded-md py-2 pl-3 pr-10 text-gray-600 focus:outline-none focus:ring-brand-blue focus:border-brand-blue">
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+              </select>
+            </div>
           </div>
 
           <!-- Mobile Menu Button -->
@@ -130,13 +139,19 @@
             <a
               href="#about"
               class="text-gray-600 hover:text-brand-blue transition-colors duration-200"
-              >About</a
+              ><span lang="en">About</span><span lang="fr" class="hidden">À propos</span></a
             >
             <a
               href="https://guelnoji-bbugogaf.scoreapp.com/"
               class="bg-brand-orange text-white px-6 py-2 rounded-full hover:opacity-90 transition-all duration-200 font-medium text-center"
-              >Book your intro call</a
+              ><span lang="en">Book your intro call</span><span lang="fr" class="hidden">On en parle !</span></a
             >
+            <div class="relative">
+              <select id="language-switcher-mobile" class="w-full bg-white border border-gray-300 rounded-md py-2 pl-3 pr-10 text-gray-600 focus:outline-none focus:ring-brand-blue focus:border-brand-blue">
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+              </select>
+            </div>
           </div>
         </div>
       </nav>
@@ -150,14 +165,16 @@
             <h1
               class="text-4xl lg:text-5xl font-bold text-brand-blue leading-tight"
             >
-              Let's accelerate your<br />
-              digital sovereignty roadmap
+              <span lang="en">Let's accelerate your<br />
+              digital sovereignty roadmap</span>
+              <span lang="fr" class="hidden">Accélérons votre<br />feuille de route</span>
             </h1>
 
             <p class="text-lg text-gray-600 leading-relaxed">
-              I help sovereignty-conscious organizations fast track their
+              <span lang="en">I help sovereignty-conscious organizations fast track their
               journey with market analysis, evaluation and insights that bring
-              confidence in decisions.
+              confidence in decisions.</span>
+              <span lang="fr" class="hidden">J'aide les organisations soucieuses de leur souveraineté numérique à accélérer leur parcours grâce à des analyses de marché, des évaluations et des retours d'expérience qui permettent de prendre des décisions en toute confiance.</span>
             </p>
 
             <div>
@@ -165,7 +182,8 @@
                 href="https://guelnoji-bbugogaf.scoreapp.com/"
                 class="bg-brand-orange text-white px-8 py-3 rounded-full hover:opacity-90 transition-all duration-200 font-medium text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-block"
               >
-                Book your intro call
+                <span lang="en">Book your intro call</span>
+                <span lang="fr" class="hidden">On en parle !</span>
               </a>
             </div>
           </div>
@@ -202,12 +220,14 @@
                   <h2
                     class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight"
                   >
-                    Sovereignty Sprint
+                    <span lang="en">Sovereignty Sprint</span>
+                    <span lang="fr" class="hidden">Sprint Souveraineté</span>
                   </h2>
                   <p class="text-lg text-gray-600 mt-4 leading-relaxed">
-                    A focused
+                    <span lang="en">A focused
                     <span class="font-semibold text-brand-blue">two-weeks</span>
-                    process to accelerate your sovereignty next steps.
+                    process to accelerate your sovereignty next steps.</span>
+                    <span lang="fr" class="hidden">Un parcours ciblé de <span class="font-semibold text-brand-blue">deux semaines</span> pour accélérer vos prochaines étapes en matière de souveraineté numérique.</span>
                   </p>
                 </div>
 
@@ -220,7 +240,8 @@
                       5000€
                     </div>
                     <div class="text-sm text-gray-500">
-                      Limited to 2 slots per month
+                      <span lang="en">Limited to 2 slots per month</span>
+                      <span lang="fr" class="hidden">Limité à 2 places par mois</span>
                     </div>
                   </div>
                 </div>
@@ -237,7 +258,10 @@
             <!-- Right Column - What You Get -->
             <div class="p-8 lg:p-12 bg-gradient-to-br from-white to-blue-50/30">
               <div class="space-y-8">
-                <h3 class="text-2xl font-bold text-gray-900">What you get:</h3>
+                <h3 class="text-2xl font-bold text-gray-900">
+                  <span lang="en">What you get:</span>
+                  <span lang="fr" class="hidden">Ce que vous obtenez :</span>
+                </h3>
 
                 <div class="space-y-6">
                   <div
@@ -260,11 +284,13 @@
                     </div>
                     <div>
                       <h4 class="font-semibold text-gray-900 text-lg mb-2">
-                        2 weeks of live and async work with me
+                        <span lang="en">2 weeks of live and async work with me</span>
+                        <span lang="fr" class="hidden">2 semaines de travail en direct et asynchrone avec moi</span>
                       </h4>
                       <p class="text-gray-600">
-                        Collaborative workshops to review market trends and
-                        providers, clarify options and structure next steps.
+                        <span lang="en">Collaborative workshops to review market trends and
+                        providers, clarify options and structure next steps.</span>
+                        <span lang="fr" class="hidden">Sessions collaboratives pour examiner les tendances du marché, les fournisseurs, clarifier les options et structurer les prochaines étapes.</span>
                       </p>
                     </div>
                   </div>
@@ -289,11 +315,13 @@
                     </div>
                     <div>
                       <h4 class="font-semibold text-gray-900 text-lg mb-2">
-                        Sovereignty assessment report
+                        <span lang="en">Sovereignty assessment report</span>
+                        <span lang="fr" class="hidden">Rapport d'évaluation de la souveraineté</span>
                       </h4>
                       <p class="text-gray-600">
-                        Complete analysis of your current sovereignty posture
-                        with specific gaps and risks identified.
+                        <span lang="en">Complete analysis of your current sovereignty posture
+                        with specific gaps and risks identified.</span>
+                        <span lang="fr" class="hidden">Analyse complète de votre posture de souveraineté actuelle avec identification des risques spécifiques.</span>
                       </p>
                     </div>
                   </div>
@@ -318,11 +346,13 @@
                     </div>
                     <div>
                       <h4 class="font-semibold text-gray-900 text-lg mb-2">
-                        Provider Comparison Matrix
+                        <span lang="en">Provider Comparison Matrix</span>
+                        <span lang="fr" class="hidden">Matrice de comparaison des partenaires technologiques</span>
                       </h4>
                       <p class="text-gray-600">
-                        Detailed evaluation of cloud providers specifically for
-                        your sovereignty requirements and use cases.
+                        <span lang="en">Detailed evaluation of cloud providers specifically for
+                        your sovereignty requirements and use cases.</span>
+                        <span lang="fr" class="hidden">Évaluation détaillée des fournisseurs de cloud spécifiquement pour vos exigences de souveraineté et vos cas d'usage.</span>
                       </p>
                     </div>
                   </div>
@@ -347,11 +377,13 @@
                     </div>
                     <div>
                       <h4 class="font-semibold text-gray-900 text-lg mb-2">
-                        Executive Presentation
+                        <span lang="en">Executive Presentation</span>
+                        <span lang="fr" class="hidden">Présentation au Leadership</span>
                       </h4>
                       <p class="text-gray-600">
-                        Review of board-ready materials to align stakeholders
-                        and communicate value.
+                        <span lang="en">Review of board-ready materials to align stakeholders
+                        and communicate value.</span>
+                        <span lang="fr" class="hidden">Revue des supports de présentations pour instances de décision afin d'aligner les parties prenantes.</span>
                       </p>
                     </div>
                   </div>
@@ -376,11 +408,13 @@
                     </div>
                     <div>
                       <h4 class="font-semibold text-gray-900 text-lg mb-2">
-                        Quick wins playbook
+                        <span lang="en">Quick wins playbook</span>
+                        <span lang="fr" class="hidden">Catalogue de quick wins</span>
                       </h4>
                       <p class="text-gray-600">
-                        Immediate actions you can take to improve your
-                        sovereignty posture without major technology changes.
+                        <span lang="en">Immediate actions you can take to improve your
+                        sovereignty posture without major technology changes.</span>
+                        <span lang="fr" class="hidden">Actions immédiates que vous pouvez entreprendre pour améliorer votre posture de souveraineté sans changements technologiques majeurs.</span>
                       </p>
                     </div>
                   </div>
@@ -408,7 +442,7 @@
               onclick="toggleFaq(0)"
             >
               <span class="font-medium text-gray-900"
-                >Will you understand my context?</span
+                ><span lang="en">Will you understand my context?</span><span lang="fr" class="hidden">Comprenez-vous mon contexte ?</span></span
               >
               <svg
                 class="text-gray-400 transform transition-transform duration-200"
@@ -428,13 +462,14 @@
             </button>
             <div class="hidden px-6 pb-4 text-gray-600" id="faq-content-0">
               <p>
-                I have worked with over 200 customers across regions (Americas,
+                <span lang="en">I have worked with over 200 customers across regions (Americas,
                 Europe, APAC), across industries (public sector, finance,
                 manufacturing, retail, services...) and sizes (from 4 people to
                 300k+). They were all unique but also very common. Yes, I take
                 the time upfront to understand your specific technological and
                 industry context but I am also leveraging what I have seen work
-                or not.
+                or not.</span>
+                <span lang="fr" class="hidden">J'ai travaillé avec plus de 200 clients dans différentes régions (Amériques, Europe, APAC), dans divers secteurs (secteur public, finance, industrie, distribution, services...) et de différentes tailles (de 4 à plus de 300 000 collaborateurs). Ils étaient tous uniques mais aussi très similaires. Je prends le temps de comprendre votre contexte technologique et métier spécifique, mais je tire également parti de ce que j'ai vu fonctionner ou non.</span>
               </p>
             </div>
           </div>
@@ -443,7 +478,7 @@
             <button
               class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors duration-200"
               onclick="toggleFaq(1)">
-              <span class="font-medium text-gray-900">Not in public sector, is it for me?</span>
+              <span class="font-medium text-gray-900"><span lang="en">Not in public sector, is it for me?</span><span lang="fr" class="hidden">Je ne suis pas dans le secteur public, est-ce pour moi ?</span></span>
               <svg
                 class="text-gray-400 transform transition-transform duration-200"
                 id="faq-icon-1"
@@ -460,7 +495,8 @@
             </button>
             <div class="hidden px-6 pb-4 text-gray-600" id="faq-content-1">
               <p>
-                Absolutely. Digital sovereignty applies to all organizations that want clarity on their sovereignty posture - whether you're a private company, public organization, or hybrid entity. I've worked with organizations across both public and private sectors, and the fundamental sovereignty questions remain the same.
+                <span lang="en">Absolutely. Digital sovereignty applies to all organizations that want clarity on their sovereignty posture - whether you're a private company, public organization, or hybrid entity. I've worked with organizations across both public and private sectors, and the fundamental sovereignty questions remain the same.</span>
+                <span lang="fr" class="hidden">Absolument. La souveraineté numérique s'applique à toutes les organisations qui souhaitent clarifier leur posture, que ce soit une entreprise privée, une organisation publique ou une entité hybride. J'ai travaillé avec des organisations des secteurs public et privé, et les questions fondamentales de souveraineté restent les mêmes.</span>
               </p>
             </div>
           </div>
@@ -469,7 +505,7 @@
             <button
               class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors duration-200"
               onclick="toggleFaq(2)">
-              <span class="font-medium text-gray-900">Why organizations think it is complex?</span>
+              <span class="font-medium text-gray-900"><span lang="en">Why organizations think it is complex?</span><span lang="fr" class="hidden">Pourquoi les organisations pensent que c'est complexe ?</span></span>
               <svg
                 class="text-gray-400 transform transition-transform duration-200"
                 id="faq-icon-2"
@@ -486,14 +522,15 @@
             </button>
             <div class="hidden px-6 pb-4 text-gray-600" id="faq-content-2">
               <p>
-                Digital sovereignty involves multiple technical, legal, and
+                <span lang="en">Digital sovereignty involves multiple technical, legal, and
                 business considerations that span across different domains. Also
                 the sovereignty landscape changes faster than most teams can
                 track. Staying current on what actually works requires dedicated
                 focus most teams don't have. But digital sovereignty isn't
                 inherently complex, provided you focus on the rights frameworks,
                 mental models and key choices that trigger the rest. That is
-                what I focus on.
+                what I focus on.</span>
+                <span lang="fr" class="hidden">La souveraineté numérique implique de multiples considérations techniques, juridiques et métier. De plus, le paysage de la souveraineté numérique évolue beaucoup plus rapidement que ce que la plupart des équipes ne peuvent suivre. Rester à jour sur ce qui fonctionne réellement nécessite du temps que la plupart des équipes n'ont pas. Mais la souveraineté numérique n'est pas intrinsèquement complexe, à condition de se concentrer sur les bons cadres, les modèles mentaux et les choix clés dont découle le reste. C'est ce sur quoi je me concentre.</span>
               </p>
             </div>
           </div>
@@ -502,7 +539,7 @@
             <button
               class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors duration-200"
               onclick="toggleFaq(3)">
-              <span class="font-medium text-gray-900">How does digital sovereignty fit with my other risks?</span>
+              <span class="font-medium text-gray-900"><span lang="en">How does digital sovereignty fit with my other risks?</span><span lang="fr" class="hidden">Comment la souveraineté numérique s'intègre avec mes autres risques ?</span></span>
               <svg
                 class="text-gray-400 transform transition-transform duration-200"
                 id="faq-icon-3"
@@ -519,9 +556,10 @@
             </button>
             <div class="hidden px-6 pb-4 text-gray-600" id="faq-content-3">
               <p>
-                Digital sovereignty isn't a standalone compliance checkbox - it's a risk decision that intersects with your security, operational resilience, 
+                <span lang="en">Digital sovereignty isn't a standalone compliance checkbox - it's a risk decision that intersects with your security, operational resilience, 
                   and business continuity planning. During our sprint, we examine how sovereignty choices impact your overall risk profile. 
-                  The goal isn't perfect sovereignty at any cost, but finding the right balance between sovereignty requirements and your broader risk management strategy.
+                  The goal isn't perfect sovereignty at any cost, but finding the right balance between sovereignty requirements and your broader risk management strategy.</span>
+                <span lang="fr" class="hidden">La souveraineté numérique n'est pas un simple exercice de conformité - c'est une décision de risque qui recoupe votre sécurité, votre résilience opérationnelle et votre planification de la continuité des activités. Pendant notre sprint, nous examinons comment les choix de souveraineté impactent votre profil de risque global. L'objectif n'est pas une souveraineté numérique parfaite à tout prix, mais de trouver le bon équilibre entre les exigences de souveraineté et votre stratégie de gestion des risques plus globale.</span>
               </p>
             </div>
           </div>
@@ -533,7 +571,7 @@
               class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors duration-200"
               onclick="toggleFaq(4)"
             >
-              <span class="font-medium text-gray-900">Why 2 weeks?</span>
+              <span class="font-medium text-gray-900"><span lang="en">Why 2 weeks?</span><span lang="fr" class="hidden">Pourquoi 2 semaines ?</span></span>
               <svg
                 class="text-gray-400 transform transition-transform duration-200"
                 id="faq-icon-4"
@@ -552,14 +590,15 @@
             </button>
             <div class="hidden px-6 pb-4 text-gray-600" id="faq-content-4">
               <p>
-                Sovereignty decisions suffer from analysis paralysis. Teams
+                <span lang="en">Sovereignty decisions suffer from analysis paralysis. Teams
                 spend 3-6 months researching, only to find their analysis
                 outdated. Two weeks forces us to focus on what matters most for
                 your specific context - not every theoretical scenario. It's
                 enough time for thorough analysis, but short enough to maintain
                 momentum and relevance. Plus, in my experience, the best
                 sovereignty insights come from focused sprints, not endless
-                research cycles.
+                research cycles.</span>
+                <span lang="fr" class="hidden">Les décisions en matière de souveraineté nuémrique souffrent de la paralysie de l'analyse. Les équipes passent 3 à 6 mois à faire des recherches, pour finalement constater que leur analyse est obsolète. Deux semaines nous obligent à nous concentrer sur ce qui compte le plus pour votre contexte spécifique - pas sur tous les scénarios théoriques. C'est assez de temps pour une analyse approfondie, mais assez court pour maintenir l'élan et la pertinence. De plus, d'après mon expérience, les meilleures informations sur la souveraineté numérique proviennent de sprints ciblés, et non de cycles de recherche sans fin.</span>
               </p>
             </div>
           </div>
@@ -572,7 +611,7 @@
               onclick="toggleFaq(5)"
             >
               <span class="font-medium text-gray-900"
-                >Which technology do you cover?</span
+                ><span lang="en">Which technology do you cover?</span><span lang="fr" class="hidden">Quelles technologies couvrez-vous ?</span></span
               >
               <svg
                 class="text-gray-400 transform transition-transform duration-200"
@@ -592,14 +631,15 @@
             </button>
             <div class="hidden px-6 pb-4 text-gray-600" id="faq-content-5">
               <p>
-                I focus on the core technologies that matter like cloud
+                <span lang="en">I focus on the core technologies that matter like cloud
                 fundations (identity, security, network) , a deep expertise on
                 collaboration tools (Microsoft 365, Google Workspace, sovereign
                 alternatives). I don't cover every niche tool, but my experience
                 as a sovereignty prouct manager thaught me the fundamental
                 building blocks that apply across the technology spectrum. If
                 you use specialized industry software, I'll help you ask the
-                right sovereignty questions.
+                right sovereignty questions.</span>
+                <span lang="fr" class="hidden">Je me concentre sur les technologies de base qui comptent, comme les fondations du cloud (identité, sécurité, réseau), avec une expertise approfondie des outils de collaboration (Microsoft 365, Google Workspace, alternatives souveraines). Je ne couvre pas tous les outils de niche, mais mon expérience en tant que chef de produit pour la souveraineté numérique m'a appris les éléments de base qui s'appliquent à l'ensemble du spectre technologique. Si vous utilisez des logiciels métier spécialisés, je vous aiderai à poser les bonnes questions.</span>
               </p>
             </div>
           </div>
@@ -612,7 +652,7 @@
               onclick="toggleFaq(6)"
             >
               <span class="font-medium text-gray-900"
-                >Will I get technical specifications with sampel codes?</span
+                ><span lang="en">Will I get technical specifications with sampel codes?</span><span lang="fr" class="hidden">Obtiendrai-je des spécifications techniques avec des exemples de code ?</span></span
               >
               <svg
                 class="text-gray-400 transform transition-transform duration-200"
@@ -632,10 +672,11 @@
             </button>
             <div class="hidden px-6 pb-4 text-gray-600" id="faq-content-6">
               <p>
-                Deliverables focus primarily on a decision dossier. I do include
+                <span lang="en">Deliverables focus primarily on a decision dossier. I do include
                 practical implementation guidelines appropriate for your
                 technical team when relevant, along with executive-level
-                summaries for leadership.
+                summaries for leadership.</span>
+                <span lang="fr" class="hidden">Les livrables se concentrent principalement sur un dossier de décision. J'inclus des recommendations de mise en œuvre adaptées à votre équipe technique lorsque cela est pertinent, ainsi que des résumés de niveau exécutif pour votre leadership.</span>
               </p>
             </div>
           </div>
@@ -648,7 +689,7 @@
               onclick="toggleFaq(7)"
             >
               <span class="font-medium text-gray-900"
-                >I have another question...</span
+                ><span lang="en">I have another question...</span><span lang="fr" class="hidden">J'ai une autre question...</span></span
               >
               <svg
                 class="text-gray-400 transform transition-transform duration-200"
@@ -668,11 +709,12 @@
             </button>
             <div class="hidden px-6 pb-4 text-gray-600" id="faq-content-7">
               <p>
-                Perfect! Book a 15-minute intro call and let's discuss your
+                <span lang="en">Perfect! Book a 15-minute intro call and let's discuss your
                 specific situation. Every organization's sovereignty journey is
                 different, and the best way to know if this sprint fits your
                 needs is a quick conversation. No sales pressure - just a chance
-                to understand your context and see if we're a good match.
+                to understand your context and see if we're a good match.</span>
+                <span lang="fr" class="hidden">Parfait ! Parlons-en 15 minutes. Le parcours de souveraineté numériquede chaque organisation est différent, et la meilleure façon de savoir si ce sprint répond à vos besoins est un échange rapide. Pas de pression - juste une chance de comprendre votre contexte et de voir si ce sprint est ce qu'il vous faut ou pas.</span>
               </p>
             </div>
           </div>
@@ -700,7 +742,8 @@
           <div class="space-y-6">
             <div class="flex items-center gap-3">
               <h2 class="text-3xl font-bold text-brand-blue">
-                Hi, I'm Guelnoji Njetein,
+                <span lang="en">Hi, I'm Guelnoji Njetein,</span>
+                <span lang="fr" class="hidden">Bonjour, je suis Guelnoji Njetein,</span>
               </h2>
               <a 
                 href="https://www.linkedin.com/in/guelnojinjetein/" 
@@ -716,22 +759,25 @@
 
             <div class="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                After 15 years in technology consulting and launching
+                <span lang="en">After 15 years in technology consulting and launching
                 sovereignty features for Google, I've seen firsthand how
-                organizations struggle with digital sovereignty complexity.
+                organizations struggle with digital sovereignty complexity.</span>
+                <span lang="fr" class="hidden">Après 15 ans dans le monde du conseil technologique puis le lancement de fonctionnalités de souveraineté numériques pour Google, j'ai constaté à quel point les organisations peinent à gérer la "complexité" de la souveraineté numérique.</span>
               </p>
 
               <p>
-                Digital sovereignty is not inherently difficult. But the
+                <span lang="en">Digital sovereignty is not inherently difficult. But the
                 landscape is changing fast, and most teams lack time to assess
                 every guidance and roadmap. I am building practical tools and
-                insights that help you make sovereignty decisions faster!
+                insights that help you make sovereignty decisions faster!</span>
+                <span lang="fr" class="hidden">La souveraineté numérique n'est pas intrinsèquement difficile. Mais le paysage évolue rapidement, et la plupart des équipes manquent de temps pour évaluer chaque guide et feuille de route. Je construis des outils pratiques et des informations qui vous aident à prendre des décisions de souveraineté plus rapidement !</span>
               </p>
 
               <p>
-                Currently splitting time between Bordeaux and Paris, working
+                <span lang="en">Currently splitting time between Bordeaux and Paris, working
                 with forward-thinking organizations who refuse to let
-                'complexity' slow them down.
+                'complexity' slow them down.</span>
+                <span lang="fr" class="hidden">Je partage actuellement mon temps entre Bordeaux et Paris, et je travaille avec des organisations avant-gardistes qui refusent de se laisser ralentir par la « complexité ».</span>
               </p>
             </div>
           </div>
@@ -744,11 +790,13 @@
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div class="space-y-6">
           <h2 class="text-3xl font-bold text-white">
-            Ready to accelerate your digital sovereignty roadmap?
+            <span lang="en">Ready to accelerate your digital sovereignty roadmap?</span>
+            <span lang="fr" class="hidden">Prêt à accélérer votre feuille de route en matière de souveraineté numérique ?</span>
           </h2>
           <p class="text-blue-100 text-lg">
-            Book your intro call to discuss your specific needs and see if the
-            Sovereignty Sprint is right for you.
+            <span lang="en">Book your intro call to discuss your specific needs and see if the
+            Sovereignty Sprint is right for you.</span>
+            <span lang="fr" class="hidden">Ayons un échange de 15 minutes pour discuter de vos besoins spécifiques et voir si le Sprint Souveraineté est fait pour vous.</span>
           </p>
 
           <div class="pt-4">
@@ -756,7 +804,8 @@
               href="https://guelnoji-bbugogaf.scoreapp.com/"
               class="bg-brand-orange text-white px-8 py-3 rounded-full hover:opacity-90 transition-all duration-200 font-medium text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-block"
             >
-              Book your intro call
+              <span lang="en">Book your intro call</span>
+              <span lang="fr" class="hidden">On en parle !</span>
             </a>
           </div>
         </div>
@@ -767,7 +816,7 @@
     <footer class="bg-gray-900 text-gray-400 py-8">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
-          <p class="text-sm">Digital sovereignty made simple</p>
+          <p class="text-sm"><span lang="en">Digital sovereignty made simple</span><span lang="fr" class="hidden">La souveraineté numérique en toute simplicité</span></p>
           <div class="mt-4 flex justify-center">
             <a 
               href="https://www.linkedin.com/in/guelnojinjetein/" 
@@ -833,6 +882,34 @@
           document.getElementById("mobile-menu").classList.add("hidden");
         });
       });
+
+      // Language switcher logic
+      const languageSwitcher = document.getElementById('language-switcher');
+      const languageSwitcherMobile = document.getElementById('language-switcher-mobile');
+
+      function setLanguage(lang) {
+        document.querySelectorAll('[lang="en"]').forEach(el => el.classList.toggle('hidden', lang !== 'en'));
+        document.querySelectorAll('[lang="fr"]').forEach(el => el.classList.toggle('hidden', lang !== 'fr'));
+        //document.documentElement.lang = lang;
+      }
+
+      languageSwitcher.addEventListener('change', (e) => {
+        setLanguage(e.target.value);
+        languageSwitcherMobile.value = e.target.value;
+      });
+
+      languageSwitcherMobile.addEventListener('change', (e) => {
+        setLanguage(e.target.value);
+        languageSwitcher.value = e.target.value;
+      });
+
+      // Set initial language based on browser settings or default to English
+      const userLang = navigator.language || navigator.userLanguage;
+      const initialLang = userLang.startsWith('fr') ? 'fr' : 'en';
+      setLanguage(initialLang);
+      languageSwitcher.value = initialLang;
+      languageSwitcherMobile.value = initialLang;
+
     </script>
   </body>
 </html>
